@@ -20,9 +20,10 @@ TrackifyApp/
 ├── node_modules/
 ├── public/
 │ ├── \_redirects
-│ └── vite.svg
+│ └── favicon.webp
 ├── src/
 │ ├── assets/
+│ └── screenshots/
 │ ├── components/
 │ │ ├── About.jsx
 │ │ ├── Contact.jsx
@@ -53,33 +54,40 @@ TrackifyApp/
 
 ## 🚀 Features
 
-- ➕ Add new expenses with category & amount
-- 📝 Edit & Delete expenses via left-click context menu
-- 🔎 Filter expenses by category
-- 🔎 Sort expenses alphabetically or by amount
-- 🧹 Clear Sort button to reset table ordering
-- 💾 Data persistence using LocalStorage
-- 📊 Display expenses in a responsive table
-- 🎨 Clean & responsive UI (TailwindCSS)
+• Quick Add: Category, Title aur Amount ke sath naye expenses jodein.
 
----
+• Context Menu Management: Table par click karke expenses ko asaani se Edit & Delete karein.
+
+• Smart Filtering: Expenses ko category ke basis par filter karein.
+
+• Advanced Sorting: Alphabetically ya Amount ke basis par data sort karein (with Clear Sort option).
+
+• Data Persistence: Browser close hone par bhi data safe rahega (LocalStorage integrated).
+
+**Fully Responsive Design:**
+Seamless layout across all devices, from large desktops to mobile screens.
 
 ## 🛠️ Tech Stack
 
-- **React.js + Vite** (Frontend)
-- **JavaScript (ES6+)**
-- **CSS / TailwindCSS**
-- **LocalStorage API**
-- **ESLint + Prettier** (Code Quality & Formatting)
-- **Vitest + React Testing Library** (Testing setup)
+• Frontend: React.js (Vite)
+
+• Styling: TailwindCSS
+
+• State & Logic: Custom React Hooks (useFilter, useLocalStorage)
+
+• Storage: LocalStorage API
+
+• Code Quality: ESLint & Prettier
 
 ---
 
 ## ⚙️ Getting Started
 
 1. Repository clone karo:
+
    ```bash
-   git clone https://github.com/Magan248/TrackifyApp.git
+   git clone [https://github.com/maganstackforge/TrackifyApp.git](https://github.com/maganstackforge/TrackifyApp.git)
+
    ```
 
 # Project directory me jao:
@@ -131,15 +139,14 @@ npm run dev
   - `test:` → for adding/updating tests
   - `chore:` → 'remove tableDemo.jsx and lazy import file and images and remove unused styles'
 
-📌 Future Enhancements
+📌Future Enhancements
+• [x] 🔐 User Authentication (Login/Signup via Firebase or Auth0)
 
-🔐 Add Authentication (Login/Signup)
+• [x] 📤 Export data to CSV/PDF
 
-📤 Export expenses to CSV/PDF
+• [x] 📊 Rich Interactive Analytics (Graphs & Charts using Recharts)
 
-📊 Graphs/Charts for analytics
-
-🌙 Dark mode support
+• [x] 🌙 Dark Mode Support
 
 👨‍💻 Author
 
